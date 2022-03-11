@@ -1,0 +1,19 @@
+@import 'form';
+@import 'list';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.App{
+    text-align: center;
+    margin: 3rem auto;
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+form {
+  border: solid black 4px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+form button, form #submit {
+  margin: 0 1rem;
+  padding: .5rem;
+}
+
+form button:hover, form #submit:hover {
+  cursor: pointer;
+}
+
+.inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  grid-row-gap: 1em;
+  margin-bottom: 1rem;
+}
+
+.employeeListContainer {
+  text-align: justify;
+  width: 22rem;
+  margin: 2rem auto;
+}
+
+.employeeListContainer ul {
+  list-style: none;
+}
+
+.employeeListContainer li {
+  margin: .5rem auto;
+  border: solid black 1px;
+  padding: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App {
+  text-align: center;
+  margin: 3rem auto;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+form{ 
+    border: solid black 4px;
+    padding: 1rem;
+    border-radius: 5px;
+    button, #submit{
+        margin: 0 1rem;
+        padding: .5rem;
+
+        &:hover{
+            cursor: pointer;
+    
+        }
+    }
+}
+
+
+.inputs{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-row-gap: 1em;
+    margin-bottom: 1rem;
+}
